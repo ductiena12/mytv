@@ -1,0 +1,11 @@
+#EXTM3U NDTIEN | Update: 210521
+#EXTM3U tvg-shift=0 m3uautoload=1
+#EXTM3U url-tvg="http://gg.gg/fptepg"
+#EXTM3U url-tvg="http://gg.gg/epgvn00"
+#EXTM3U url-tvg="http://gg.gg/epgmytv"
+#EXTM3U aspect-ratio=16:9
+
+#EXTINF:-1, tvg-id="vtv1" tvg-logo="https://i.postimg.cc/s2HD18GG/vtv1hd.png" group-title="VTV",VTV1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://livecdn.fptplay.net/hda/vtv1hd_hls.smil/chunklist_b2500000.m3u8
+
