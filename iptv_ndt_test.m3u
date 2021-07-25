@@ -4,16 +4,21 @@
 #EXTM3U url-tvg="http://gg.gg/epgvn00"
 #EXTM3U url-tvg="http://gg.gg/epgmytv"
 #EXTM3U aspect-ratio=16:9
-
-#EXTINF:-1 tvg-id="vinhlong1hd" group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.imgur.com/mDQssNg.jpg",Vĩnh Long 1 HD
+#EXTINF:-1 tvg-id="foxsportshd" group-title="KÊNH THỂ THAO" tvg-logo="https://i.imgur.com/JWjKjjL.png",FOX SPORTS | 1080P
 #EXTVLCOPT:http-user-agent=vietngatv
-https://livecdn.fptplay.net/hda1/vinhlong1_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="vinhlong2hd" group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.imgur.com/hrsgjNu.jpg",Vĩnh Long 2 HD
+https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOXSPRORT-HD-1080p/playlist.m3u8
+#EXTINF:-1 tvg-id="foxsportshd" group-title="KÊNH THỂ THAO" tvg-logo="https://i.imgur.com/JWjKjjL.png",FOX SPORTS | 720P
 #EXTVLCOPT:http-user-agent=vietngatv
-https://livecdn.fptplay.net/hda2/vinhlong2_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="vinhlong3hd" group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.imgur.com/w7nxAjc.jpg",Vĩnh Long 3 HD
+https://livecdn.fptplay.net/qnetlive/foxsports_2000.stream/chunklist.m3u8
+#EXTINF:-1 tvg-id="foxsports2hd" group-title="KÊNH THỂ THAO" tvg-logo="https://i.imgur.com/YGaEdHU.png",FOX SPORTS 2 | 720P
 #EXTVLCOPT:http-user-agent=vietngatv
-https://livecdn.fptplay.net/hda2/vinhlong3_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="vinhlong4hd" group-title="KÊNH ĐỊA PHƯƠNG" tvg-logo="https://i.imgur.com/iuYepMv.jpg",Vĩnh Long 4 HD
+https://livecdn.fptplay.net/qnetlive/foxsports2_2000.stream/chunklist.m3u8
+#EXTINF:-1 tvg-id="foxsports2hd" group-title="KÊNH THỂ THAO" tvg-logo="https://i.imgur.com/YGaEdHU.png",FOX SPORTS 2 SD
 #EXTVLCOPT:http-user-agent=vietngatv
-https://livecdn.fptplay.net/hda/vinhlong4hd_hls.smil/chunklist_b2500000.m3u8
+https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOXSPORT2-SD-720p/playlist.m3u8
+#EXTINF:-1 tvg-id="fox_sports3" group-title="KÊNH THỂ THAO" tvg-logo="https://i.imgur.com/PWoyWfo.png",FOX SPORTS 3 | 1080P
+#EXTVLCOPT:http-user-agent=vietngatv
+https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOXSPORTS3-HD-1080p/playlist.m3u8
+#EXTINF:-1 tvg-id="fox_sports3" group-title="KÊNH THỂ THAO" tvg-logo="https://i.imgur.com/PWoyWfo.png",FOX SPORTS 3 | 720P
+#EXTVLCOPT:http-user-agent=vietngatv
+https://livecdn.fptplay.net/qnetlive/foxsports3_2000.stream/chunklist.m3u8
