@@ -4,21 +4,267 @@
 #EXTM3U url-tvg="http://gg.gg/epgvn00"
 #EXTM3U url-tvg="http://gg.gg/epgmytv"
 #EXTM3U aspect-ratio=16:9
-#EXTINF:-1 tvg-id="foxsportshd" group-title="KÊNH THỂ THAO" tvg-logo="https://i.imgur.com/JWjKjjL.png",FOX SPORTS | 1080P
-#EXTVLCOPT:http-user-agent=vietngatv
-https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOXSPRORT-HD-1080p/playlist.m3u8
-#EXTINF:-1 tvg-id="foxsportshd" group-title="KÊNH THỂ THAO" tvg-logo="https://i.imgur.com/JWjKjjL.png",FOX SPORTS | 720P
-#EXTVLCOPT:http-user-agent=vietngatv
-https://livecdn.fptplay.net/qnetlive/foxsports_2000.stream/chunklist.m3u8
-#EXTINF:-1 tvg-id="foxsports2hd" group-title="KÊNH THỂ THAO" tvg-logo="https://i.imgur.com/YGaEdHU.png",FOX SPORTS 2 | 720P
-#EXTVLCOPT:http-user-agent=vietngatv
-https://livecdn.fptplay.net/qnetlive/foxsports2_2000.stream/chunklist.m3u8
-#EXTINF:-1 tvg-id="foxsports2hd" group-title="KÊNH THỂ THAO" tvg-logo="https://i.imgur.com/YGaEdHU.png",FOX SPORTS 2 SD
-#EXTVLCOPT:http-user-agent=vietngatv
-https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOXSPORT2-SD-720p/playlist.m3u8
-#EXTINF:-1 tvg-id="fox_sports3" group-title="KÊNH THỂ THAO" tvg-logo="https://i.imgur.com/PWoyWfo.png",FOX SPORTS 3 | 1080P
-#EXTVLCOPT:http-user-agent=vietngatv
-https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOXSPORTS3-HD-1080p/playlist.m3u8
-#EXTINF:-1 tvg-id="fox_sports3" group-title="KÊNH THỂ THAO" tvg-logo="https://i.imgur.com/PWoyWfo.png",FOX SPORTS 3 | 720P
-#EXTVLCOPT:http-user-agent=vietngatv
-https://livecdn.fptplay.net/qnetlive/foxsports3_2000.stream/chunklist.m3u8
+#EXTINF:-1 tvg-id="quoc_hoi_tv" group-title="KÊNH THIẾT YẾU" tvg-logo="https://i.imgur.com/G154n6j.png",Quốc Hội Việt Nam HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/hda1/quochoivn_vhls.smil/chunklist_b5000000.m3u8
+
+#EXTINF:-1 tvg-id="quoc_phong_tv" group-title="KÊNH THIẾT YẾU" tvg-logo="https://i.imgur.com/xtA4AlV.png",Quốc Phòng Việt Nam HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/hda1/quocphongvnhd_vhls.smil/chunklist_b5000000.m3u8
+
+#EXTINF:-1 tvg-id="nhan_dan_tv" group-title="KÊNH THIẾT YẾU" tvg-logo="https://i.imgur.com/IBwNP1p.jpg",Nhân Dân TV HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://video.nhandan.thienvietjsc.net/live/nhandan720/chunklist_w1386832030.m3u8
+#EXTINF:-1 tvg-id="nhan_dan_tv" group-title="KÊNH THIẾT YẾU" tvg-logo="https://i.imgur.com/IBwNP1p.jpg",Nhân Dân TV HD (Server 2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/sdc/truyenhinhnhandan_hls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 tvg-id="ttxvn" group-title="KÊNH THIẾT YẾU" tvg-logo="https://i.imgur.com/AAWIPHz.png",VNews - Thông Tấn Xã Việt Nam HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://livecdn.fptplay.net/hda2/ttxvn_vhls.smil/chunklist_b5000000.m3u8
+
+#EXTINF:-1 tvg-id="htv_the_thao" group-title="KÊNH THỂ THAO TRONG NƯỚC VÀ QUỐC TẾ" tvg-logo="https://i.imgur.com/A8RNAwQ.png",HTV Thể Thao HD | 1080P
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://live-vthcm.vieon.vn/htv_drm/live/htv_the_thao/TV_HD/htv_the_thao_1080p/chunks.m3u8
+#EXTINF:-1 tvg-id="htv_the_thao" group-title="KÊNH THỂ THAO TRONG NƯỚC VÀ QUỐC TẾ" tvg-logo="https://i.imgur.com/A8RNAwQ.png",HTV Thể Thao HD | 720P
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/sdb/htvcthethao_hls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/R3Dq01b/DONGNAI-BEARTV.png" group-title="KÊNH ĐỊA PHƯƠNG",Đồng Nai 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://live-vthcm.vieon.vn/htv_drm/live/dong_nai_3/TV_HD/dong_nai_3_480p/playlist.m3u8
+#EXTINF:-1 group-title="KÊNH TIN TỨC" tvg-logo="https://i.ibb.co/sW3YT20/Aljazeera-eng.png",Aljazeera International (English)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://live-hls-web-aje.getaj.net/AJE/01.m3u8
+#EXTINF:-1 tvg-id="axnhd" group-title="KÊNH QUỐC TẾ" tvg-logo="https://i.imgur.com/AyyX0IP.png",AXN HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://livecdn.fptplay.net/hda3/axnhd_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="arirang" group-title="KÊNH TIN TỨC" tvg-logo="https://i.imgur.com/E3M02yH.png",ARIRANG Korea
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/world/arirang_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="arirang" group-title="KÊNH TIN TỨC" tvg-logo="https://i.imgur.com/E3M02yH.png",ARIRANG Korea HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+#EXTINF:-1 group-title="KÊNH Thiếu nhi" tvg-logo="https://i.ibb.co/tKy129y/Animax.png",ANIMAX
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/hda3/animaxport_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="animalhd" group-title="KÊNH QUỐC TẾ" tvg-logo="https://i.imgur.com/V6dxmRT.jpg",Animal Planet HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/hda2/animalplanet_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="asian_food_channel" group-title="KÊNH QUỐC TẾ" tvg-logo="https://i.ibb.co/VqRXFMV/asian-food.png",Asian Food Network HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/hda1/afchd_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="abc_australia" group-title="KÊNH QUỐC TẾ" tvg-logo="https://i.imgur.com/yIvBE2i.png",ABC Australia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/qnetlive/australiaplus_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="boomerang" group-title="KÊNH Thiếu nhi" tvg-logo="https://i.imgur.com/PKOlWpr.png",BOMMERANG
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://livecdn.fptplay.net/hda3/boomerang_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="cbeebies" group-title="KÊNH Thiếu nhi" tvg-logo="https://i.imgur.com/oD53jAs.png",BBC CBEEBIES
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/hda3/cbeebies_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="bbc_world_news" group-title="KÊNH TIN TỨC" tvg-logo="https://i.imgur.com/GzuP1MN.png",BBC World News
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/qnetlive/bbcnew_2000.stream/chunklist.m3u8
+#EXTINF:-1 tvg-id="bbc_world_news" group-title="KÊNH TIN TỨC" tvg-logo="https://i.imgur.com/GzuP1MN.png",BBC World News (Server 2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/BBCNEWS-SD-720p/playlist.m3u8
+#EXTINF:-1 tvg-id="bbc_world_news" group-title="KÊNH TIN TỨC" tvg-logo="https://i.imgur.com/GzuP1MN.png",BBC World News HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://37.99.5.234/btv/SWM/BBC_World/BBC_World_1080p_5000kbps.m3u8
+#EXTINF:-1 tvg-id="bbc_earth" group-title="KÊNH TIN TỨC" tvg-logo="https://i.ibb.co/XynWD6F/BBC-Earth-BEARTV.png" group-title="KÊNH QUỐC TẾ",BBC Earth
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/hda2/bbcearth_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="bbc_lifestyle" group-title="KÊNH QUỐC TẾ" tvg-logo="https://i.ibb.co/F6N3vk3/BBC-Lifestyle-BEARTV.jpg",BBC Lifestyle
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/qnetlive/bbclifestyle_2000.stream/chunklist.m3u8
+#EXTINF:-1 group-title="KÊNH Thiếu nhi" tvg-logo="https://i.imgur.com/iCCuGAJ.png",Baby First
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/hda1/babyfirst_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="KÊNH Thiếu nhi" tvg-logo="https://i.imgur.com/iCCuGAJ.png",Baby First (Server 2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/BABYFIRST-SD-720p/chunks.m3u8
+#EXTINF:-1 group-title="KÊNH Thiếu nhi" tvg-logo="https://i.imgur.com/LBU2zCq.png",Baby TV HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/hda3/babytvhd_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="blue_ant_entertainment" group-title="KÊNH QUỐC TẾ" tvg-logo="https://i.ibb.co/wzhZgHR/Blue-ant-entertainment.png",Blue Ant Entertainment
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/hda1/blueantent_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="blue_ant_extreme" group-title="KÊNH QUỐC TẾ" tvg-logo="https://i.ibb.co/qdgLG31/Blue-ant-extreme.png",Blue Ant Extreme
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/hda1/blueantext_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="KÊNH TIN TỨC" tvg-logo="https://i.imgur.com/5cAToRS.png",BLOOMBERG SD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/BLOOMBERG-SD-720p/playlist.m3u8
+#EXTINF:-1 group-title="KÊNH TIN TỨC" tvg-logo="https://i.imgur.com/5cAToRS.png",BLOOMBERG SD (Server 2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/sdb/bloomberg_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:0 group-title="Kênh phim truyện" tvg-id="max_by_hbo" tvg-logo="https://i.imgur.com/F0N0TmU.jpg",Cinemax HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://vips-livecdn.fptplay.net/hda1/cinemax_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="Kênh phim truyện" tvg-logo="https://i.ibb.co/9V7M86m/CMW-BEARTV.png",Cinema World HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/hda2/cinemawork_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="Kênh phim truyện" tvg-logo="https://i.ibb.co/9V7M86m/CMW-BEARTV.png",Cinema World SD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/CINEWORLD-SD-720p/playlist.m3u8
+#EXTINF:-1 tvg-id="cna_channel_news_asia" group-title="KÊNH TIN TỨC" tvg-logo="https://i.imgur.com/DhcvpCm.png",Channel News Asia HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+#EXTINF:-1 tvg-id="cna_channel_news_asia" group-title="KÊNH TIN TỨC" tvg-logo="https://i.imgur.com/DhcvpCm.png",Channel News Asia SD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/world/newsasia_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="cnn" group-title="KÊNH TIN TỨC" tvg-logo="https://i.imgur.com/cyQpqTX.png",CNN International | 576P
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/qnetlive/cnn_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="cnn" group-title="KÊNH TIN TỨC" tvg-logo="https://i.imgur.com/cyQpqTX.png",CNN International | 480P
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/CNN-SD-480p/playlist.m3u8
+#EXTINF:-1 tvg-id="channel_v" group-title="KÊNH CA NHẠC" tvg-logo="https://i.imgur.com/p7w1FbM.png",Channel [V] HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/CHANNELV-HD-1080p/playlist.m3u8
+#EXTINF:-1 tvg-id="cartoonhd" group-title="KÊNH Thiếu nhi" tvg-logo="https://i.imgur.com/dpGiaH5.png",Cartoon Network HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/hda3/cartoonnetworkhd_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="KÊNH TIN TỨC" tvg-logo="https://i.imgur.com/plQunhe.png",CNBC
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/sdb/cnbc_hls.smil/chunklist.m3u8
+#EXTINF:-1 group-title="KÊNH TIN TỨC" tvg-logo="https://i.imgur.com/QCSeNYK.png",CGTN
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://live.cgtn.com/1000/prog_index.m3u8
+#EXTINF:-1 group-title="KÊNH TIN TỨC" tvg-logo="https://i.ibb.co/VvdNSBJ/CGTN-arabic.png",CGTN Arabic
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://livear.cgtn.com/1000a/prog_index.m3u8
+#EXTINF:-1 group-title="KÊNH TIN TỨC" tvg-logo="https://i.ibb.co/fkxTRPY/CGTN-Espanol.png",CGTN Espanol
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://livees.cgtn.com/1000e/prog_index.m3u8
+#EXTINF:-1 group-title="KÊNH TIN TỨC" tvg-logo="https://i.ibb.co/2qmzzGF/CGTN-fran-ais.png",CGTN Francais
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://livefr.cgtn.com/1000f/prog_index.m3u8
+#EXTINF:-1 group-title="KÊNH TIN TỨC" tvg-logo="https://i.imgur.com/L2yv24j.png",CGTN Русский
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://liveru.cgtn.com/1000r/prog_index.m3u8
+#EXTINF:-1 group-title="PHIM TÀI LIỆU" tvg-logo="https://i.ibb.co/g3s29p0/CGTN-Documentary.png",CGTN Documentary
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://livedoc.cgtn.com/1000d/prog_index.m3u8
+#EXTINF:-1 tvg-id="foxhd" group-title="Kênh phim truyện" tvg-logo="https://i.imgur.com/fI6kBjB.jpg",FOX HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://37.99.5.234/btv/SWM/FOX/FOX_1080p_5000kbps.m3u8
+#EXTINF:-1 tvg-id="foxlifehd" group-title="KÊNH QUỐC TẾ" tvg-logo="https://i.imgur.com/LsOkH5s.png",FOX LIFE HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://37.99.5.234/btv/SWM/FoxLife/FoxLife_1080p_5000kbps.m3u8
+#EXTINF:-1 tvg-id="france_24" group-title="KÊNH TIN TỨC" tvg-logo="https://i.imgur.com/zdze6Iq.png",FRANCE 24 English
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/world/france24_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 group-title="KÊNH TIN TỨC" tvg-logo="https://i.imgur.com/zdze6Iq.png",FRANCE 24 English HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8
+#EXTINF:-1 group-title="KÊNH QUỐC TẾ" tvg-logo="https://i.imgur.com/ejXfHa4.png",History HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://37.99.5.234/btv/SWM/HistoryHD/HistoryHD_1080p_5000kbps.m3u8
+#EXTINF:-1 group-title="KÊNH QUỐC TẾ" tvg-logo="https://i.imgur.com/XIpsgye.png",History 2 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://37.99.5.234/btv/SWM/History2HD/History2HD_1080p_5000kbps.m3u8
+#EXTINF:-1 tvg-id="nhk_world" group-title="KÊNH TIN TỨC" tvg-logo="https://i.imgur.com/cnMuKG4.jpg",NHK WORLD JAPAN HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/hda2/nhkworld_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="national_geographic" group-title="KÊNH QUỐC TẾ" tvg-logo="https://i.imgur.com/m7Cl2M9.png",National Geographic HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://37.99.5.234/btv/SWM/NatGeo_channel/NatGeo_channel_1080p_5000kbps.m3u8
+#EXTINF:-1 group-title="KÊNH QUỐC TẾ" tvg-logo="https://i.imgur.com/3jBRVrj.png",Nat Geo WILD HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/NATGEOWILD-HD-1080p/playlist.m3u8
+#EXTINF:-1 tvg-id="kix_hd" group-title="KÊNH QUỐC TẾ" tvg-logo="https://i.imgur.com/Lod13YD.png",KIX HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/hda1/kixhd_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="kbs_world" group-title="KÊNH QUỐC TẾ" tvg-logo="https://i.imgur.com/SefEfRO.png",KBS World SD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/sdb/kbs_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="discovery" group-title="KÊNH QUỐC TẾ" tvg-logo="https://i.ibb.co/PYRgmQB/Discovery-BEARTV.png",Discovery HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/hda2/discovery_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="discovery_asia" group-title="KÊNH QUỐC TẾ" tvg-logo="https://i.imgur.com/bjPs3A5.png",Discovery Asia HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://livecdn.fptplay.net/hda2/discoveryasia_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="dw" group-title="KÊNH TIN TỨC" tvg-logo="https://i.imgur.com/NaJrOIz.png",DW English | 1080P
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/hda2/dwenglish_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="dw" group-title="KÊNH TIN TỨC" tvg-logo="https://i.imgur.com/NaJrOIz.png",DW English | 720P
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+#EXTINF:-1 tvg-id="outdoor_channel" group-title="KÊNH QUỐC TẾ" tvg-logo="https://i.imgur.com/RJwaiHH.png",Outdoor Channel HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/hda1/outdoorfhd_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="fashion_tv" group-title="KÊNH QUỐC TẾ" tvg-logo="https://i.imgur.com/5KrE9kR.png",Fashion TV HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/hda2/fashiontvhd_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="Kênh phim truyện" tvg-logo="https://i.imgur.com/CDe0W1b.png",Paramount Channel HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/PARAMOUNT-HD-720p/playlist.m3u8
+#EXTINF:-1 tvg-id="tv5monde_asie" group-title="KÊNH TIN TỨC" tvg-logo="https://i.imgur.com/FE0h0Cq.png",TV5 Monde SD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/world/tv5_hls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="tlc" group-title="KÊNH QUỐC TẾ" tvg-logo="https://i.imgur.com/9ohiQeN.png",TLC HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/hda2/travelliving_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="KÊNH TIN TỨC" tvg-logo="https://i.imgur.com/3E4KGqG.png",Russia Today News
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://rt-glb.gcdn.co/live/rtnews/playlist.m3u8
+#EXTINF:-1 group-title="KÊNH TIN TỨC" tvg-logo="https://i.imgur.com/3E4KGqG.png",Russia Today News (Server 2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://uiptv.do.am/1ufc/702424953/playlist.m3u8
+#EXTINF:-1 group-title="KÊNH TIN TỨC" tvg-logo="https://i.imgur.com/3E4KGqG.png",Russia Today News (Server 3)
+#EXTVLCOPT:http-user-agent="Dalvik/2.1.0 (Linux; U; Android 6.0.1;)"
+http://ott-cdn.ucom.am/s96/index.m3u8
+#EXTINF:-1 group-title="KÊNH QUỐC TẾ" tvg-logo="https://i.imgur.com/E1hnM1s.png",TRT World HD | 1080P
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://tv-trtworld.live.trt.com.tr/master_1080.m3u8
+#EXTINF:-1 group-title="KÊNH QUỐC TẾ" tvg-logo="https://i.imgur.com/E1hnM1s.png",TRT World HD | 720P
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.is_realtime_stream=true
+http://mfe.cliptv.az/dash/TRT_World_HD.ism/playlist.mpd
+#EXTINF:-1 tvg-id="warner_tv_hd" group-title="Kênh phim truyện" tvg-logo="https://i.imgur.com/9qJI1Mg.png",Warner TV HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://livecdn.fptplay.net/hda3/warnertv_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="warner_tv_hd" group-title="Kênh phim truyện" tvg-logo="https://i.imgur.com/b2eCn4J.png",Warner TV SD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/WANNERTV-SD-720p/chunks.m3u8
+#EXTINF:-1 tvg-id="foxsportshd" group-title="KÊNH THỂ THAO TRONG NƯỚC VÀ QUỐC TẾ" tvg-logo="https://i.imgur.com/vJI3xd4.png",FOX SPORTS HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/hda2/foxsports_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="foxsports2hd" group-title="KÊNH THỂ THAO TRONG NƯỚC VÀ QUỐC TẾ" tvg-logo="https://i.ibb.co/YycPWjr/fox2.png",FOX SPORTS 2 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/hda3/foxsports2_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="fox_sports3" group-title="KÊNH THỂ THAO TRONG NƯỚC VÀ QUỐC TẾ" tvg-logo="https://i.ibb.co/GVR6w1d/fox3.png",FOX SPORTS 3 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://livecdn.fptplay.net/hda2/foxsports3_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="KÊNH Thiếu nhi" tvg-logo="https://i.imgur.com/QqLoAs7.png",Nickelodeon
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+http://37.99.5.234/btv/SWM/Nikelodeon/Nikelodeon_576p_2000kbps.m3u8
+#EXTINF:-1 group-title="KÊNH Thiếu nhi" tvg-logo="https://i.imgur.com/QbvvRC6.png",Nick JR
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.is_realtime_stream=true
+http://mfe.cliptv.az/dash/Nick_JR_SD.ism/playlist.mpd
+#EXTINF:0 tvg-logo="https://i.imgur.com/mxe21Rt.png" group-title="Kênh phim truyện",VIP Megahit
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.is_realtime_stream=true
+http://mfe.cliptv.az/dash/VIP_Megahit_HD.ism/playlist.mpd
+#EXTINF:0 tvg-logo="https://i.imgur.com/Cr8UYAP.png" group-title="Kênh phim truyện",Vip Comedy
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.is_realtime_stream=true
+http://mfe.cliptv.az/dash/VIP_Comedy_HD.ism/playlist.mpd
+#EXTINF:0 tvg-logo="https://i.imgur.com/PVxPNq5.png" group-title="Kênh phim truyện",Vip Premiere
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.is_realtime_stream=true
+http://mfe.cliptv.az/dash/VIP_Premium_HD.ism/playlist.mpd
+
