@@ -3,16 +3,16 @@
 #EXTM3U aspect-ratio=16:9
 
 #EXTINF:-1, tvg-id="vtv1" tvg-logo="https://i.postimg.cc/s2HD18GG/vtv1hd.png" group-title="VTV",VTV1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-http://drfamaga5qliv.vcdn.cloud/vtv01/vtv01@1080p.m3u8
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+https://livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1, tvg-id="vtv2" tvg-logo="https://i.postimg.cc/nzsVmkqR/vtv2hd.png" group-title="VTV",VTV2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 http://drfamaga5qliv.vcdn.cloud/vtv02/vtv02@1080p.m3u8
 
 #EXTINF:-1, tvg-id="vtv3" tvg-logo="https://i.postimg.cc/mkCbXgX7/vtv3hd.png" group-title="VTV",VTV3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-http://drfamaga5qliv.vcdn.cloud/vtv03/vtv03@1080p.m3u8
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+https://livecdn.fptplay.net/hda1/vtv3hd_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1, tvg-id="vtv4" tvg-logo="https://i.postimg.cc/T3CTHS9N/vtv4hd.png" group-title="VTV",VTV4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
