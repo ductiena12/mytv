@@ -44,6 +44,12 @@ http://drfamaga5qliv.vcdn.cloud/vtv08/vtv08@1080p.m3u8
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 https://livecdn.fptplay.net/hda2/vtv9_vhls.smil/chunklist_b5000000.m3u8
 
+#EXTINF:-1, tvg-id="vtvct" tvg-logo="https://i.postimg.cc/zXkNVM9D/vtv9hd.png" group-title="VTV",VTV Cần Thơ
+http://live.vthanhtivi.pw/vtvct
+
+#EXTINF:-1, tvg-id="vtvtnb9" tvg-logo="https://i.postimg.cc/zXkNVM9D/vtv9hd.png" group-title="VTV",VTV Tây Nam Bộ
+https://api.vthanhtivi.pw/v2/getlink/vtv/vtv5tn/playlist.m3u8
+
 #EXTINF:-1, tvg-id="antv" tvg-logo="https://i.imgur.com/QfnVC0c.png" group-title="Kênh Thiết Yếu",ANTV
 #EXTVLCOPT:http-user-agent=vietngatv
 https://livecdn.fptplay.net/sdc/anninhtv_2000.stream/chunklist.m3u8
