@@ -2,6 +2,12 @@
 #EXTM3U tvg-shift=0 m3uautoload=1
 #EXTM3U aspect-ratio=16:9
 
+#EXTINF:-1, tvg-id="vtv1" tvg-logo="https://i.postimg.cc/s2HD18GG/vtv1hd.png" group-title="VTV",VTV1 [Độ trễ thấp]
+http://live.vthanhtivi.pw/vtv1
+
+#EXTINF:-1, tvg-id="vtv3" tvg-logo="https://i.postimg.cc/mkCbXgX7/vtv3hd.png" group-title="VTV",VTV3 (Độ trễ thấp)
+http://live.vthanhtivi.pw/vtv3
+
 #EXTINF:-1, tvg-id="vtv1" tvg-logo="https://i.postimg.cc/s2HD18GG/vtv1hd.png" group-title="VTV",VTV1
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 https://livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/chunklist_b5000000.m3u8
@@ -89,30 +95,38 @@ https://livecdn.fptplay.net/hda2/vtc4_vhls.smil/chunklist_b5000000.m3u8
 https://livecdn.fptplay.net/sdb/todaytv_hls.smil/chunklist_b2500000.m3u8
 
 #EXTINF:-1, tvg-id="vtvcab1_giai_tri_tv" tvg-logo="https://i.imgur.com/UoYzCvp.png" group-title="VTVCab",VTVCab1 Vie Giải Trí
-#
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://api.vthanhtivi.pw/v2/getlink/vieon/vie-giai-tri-hd/playlist.m3u8
 
 #EXTINF:-1, tvg-id="vtvcab2_phim_viet" tvg-logo="https://i.imgur.com/pYhfSQm.png" group-title="VTVCab",VTVCab2 Phim Việt
-#
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://api.vthanhtivi.pw/v2/getlink/vieon2/ad62967c-f8f2-4bb1-84bc-637282f14799/playlist.m3u8
 
 #EXTINF:-1, tvg-id="vtvcab3" tvg-logo="https://imgur.com/QfDeJpD.png" group-title="VTVCab",VTVCab3 Thể Thao TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-#
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://api.vthanhtivi.pw/v2/getlink/vieon2/9fb740a5-d1a0-4068-8d02-0a4d428f46db/playlist.m3u8
+
+#EXTINF:-1, tvg-id="vtvcab3" tvg-logo="https://imgur.com/QfDeJpD.png" group-title="VTVCab",VTVCab3 Thể Thao TV [2]
+https://856175157.r.vtvcdn.com/hls/THETHAO_HD_mghv/sc-gaFEAQ/m401_index.m3u8
 
 #EXTINF:-1, tvg-id="vtvcab4" tvg-logo="https://i.imgur.com/s2YEFCO.png" group-title="VTVCab",VTVCab4
-#
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://api.vthanhtivi.pw/v2/getlink/vieon2/d49ffe96-d3da-46d6-8e40-6572f2db0645/playlist.m3u8
 
 #EXTINF:-1, tvg-id="vtvcab5_e_channel" tvg-logo="https://i.imgur.com/qYRXIXX.png" group-title="VTVCab",VTVCab5 EChannel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246
-#
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://api.vthanhtivi.pw/v2/getlink/vieon2/f5729e7e-bf42-4e7d-988e-6204f94062b4/playlist.m3u8
 
 #EXTINF:-1, tvg-id="vtvcab16_bong_da_tv" tvg-logo="https://i.imgur.com/ZW8tKZR.png" group-title="VTVcab",VTVCab16 Bóng Đá TV
-#
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://api.vthanhtivi.pw/v2/getlink/vieon2/a30dfe11-536f-4a6e-abca-3df04ca7363a/playlist.m3u8
 
 #EXTINF:-1 tvg-id="vtvcab18_the_thao_tin_tuc" tvg-logo="https://i.imgur.com/59vXpun.png" group-title="VTVcab",VTVCab18 Thể Thao Tin Tức
-#
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://api.vthanhtivi.pw/v2/getlink/vieon2/987374ca-de49-4612-a159-b71f7880d134/playlist.m3u8
 
 #EXTINF:-1, tvg-id="vtvcab19_vie_dramas" tvg-logo="https://i.imgur.com/6DOeLOh.png" group-title="VTVCab",VTVCab19 Vie Drama
-#
+https://api.vthanhtivi.pw/v2/getlink/mytv/201/hd.m3u8
 
 #EXTINF:-1 group-title="LIVE EVENTS" tvg-logo="https://upload.wikimedia.org/wikipedia/vi/thumb/d/d4/Logo_Vleague1_2023.svg/1920px-Logo_Vleague1_2023.svg.png",V-LEAGUE EVENT 1
 http://171.244.61.233/live1
@@ -127,25 +141,28 @@ http://171.244.61.233/EPL
 http://171.244.61.233/SCTV
 
 #EXTINF:-1, tvg-id="sctv1" tvg-logo="https://i.imgur.com/bAvGAOF.png" group-title="SCTV",SCTV1
-#
+https://vtsstr7.tv24.vn/live/SCTV_HD_Hai_new.smil/playlist.m3u8
 
 #EXTINF:-1, tvg-id="sctv15" tvg-logo="https://i.imgur.com/Vtalgll.png" group-title="SCTV",SCTV15 SSport 2
-#
+https://vtsstr4.tv24.vn/live/SCTV_HD_TheThao_new.smil/playlist.m3u8
 
 #EXTINF:-1, tvg-id="sctv17" tvg-logo="https://i.imgur.com/9ul8vUU.png" group-title="SCTV",SCTV17 SSport
-#
+https://vtsstr4.tv24.vn/live/SCTV17_HD_new.smil/playlist.m3u8
 
 #EXTINF:-1, tvg-id="sctv16" tvg-logo="https://i.imgur.com/Vtalgll.png" group-title="SCTV",SCTV16 Phim Nước Ngoài Đặc Sắc
-https://rlink.vn/beartv-sctv16
+https://vtsstr4.tv24.vn/live/SCTV_HD_phimnuocngoaidacsac_new.smil/playlist.m3u8
 
 #EXTINF:-1, tvg-id="SCTV18" tvg-logo="https://i.imgur.com/VcTaH8E.png" group-title="SCTV",SCTV18 Kênh 18
-https://rlink.vn/beartv-sctv18
+https://vtsstr4.tv24.vn/live/SCTV18_HD_new.smil/playlist.m3u8
 
 #EXTINF:-1, tvg-id="SCTV19" tvg-logo="https://i.imgur.com/n7noILo.png" group-title="SCTV",SCTV19 Channel T
-https://rlink.vn/beartv-sctv19
+https://vtsstr4.tv24.vn/live/SCTV19_HD_new.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SCTV22" group-title="SCTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/84.png",SCTV22
+https://vtsstr4.tv24.vn/live/SCTV22_HD_new.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="sctvpth" tvg-logo="https://i.imgur.com/Ln7eaos.png" group-title="SCTV",SCTV Phim Tổng Hợp
-#
+https://vtsstr7.tv24.vn/live/SCTVHD_PhimTongHop.smil/playlist.m3u8
 
 
 
@@ -326,9 +343,12 @@ https://livecdn.fptplay.net/hda2/natgeohd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1,tvg-id="natgeopeo" tvg-logo="https://i.imgur.com/NjSTA00.png" group-title="Kênh Quốc Tế",National Geo People
 #http://livecdnh1.tvanywhere.ae:80/hls/nat_geo_people/index.m3u8
 
-#EXTINF:-1,tvg-id="ngwhd" tvg-logo="https://i.imgur.com/R3j2lYp.png" group-title="Kênh Quốc Tế",National Geo Wild
+#EXTINF:-1,tvg-id="natgeowild" tvg-logo="https://i.imgur.com/R3j2lYp.png" group-title="Kênh Quốc Tế",National Geo Wild
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 https://livecdn.fptplay.net/hda3/natgeowild_vhls.smil/chunklist_b5000000.m3u8
+
+#EXTINF:-1,tvg-id="planetearth" tvg-logo="https://cdn.hqth.me/logo/thumbs/194.png" group-title="Kênh Quốc Tế", Planet Earth
+https://api.vthanhtivi.pw/v2/getlink/tv360/135/2.m3u8
 
 #EXTINF:-1, tvg-id="history" tvg-logo="https://i.imgur.com/iDvpwtk.png" group-title="Kênh Quốc Tế",History
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
@@ -391,17 +411,16 @@ https://livecdn.fptplay.net/hda1/blueantext_vhls.smil/chunklist_b5000000.m3u8
 https://vips-livecdn.fptplay.net/hda1/hbo_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1, tvg-id="red_by_hbo" tvg-logo="https://i.imgur.com/66QoyTn.png" group-title="Kênh Quốc Tế",Red by HBO
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-http://quocthai.duckdns.org:18886/rtp/232.84.2.172:10840
+#
 
 #EXTINF:-1, tvg-id="hbo_hits" tvg-logo="https://i.imgur.com/UvtN7h6.png" group-title="Kênh Quốc Tế",HBO HITS
-http://36.37.252.114:888/Apple/OneTV-031/playlist.m3u8
+http://sglive.vthanhtivi.pw:9981/stream/channelid/840219198?profile=pass
 
 #EXTINF:-1, tvg-id="hbo_family" tvg-logo="https://i.imgur.com/EcpLi9y.png" group-title="Kênh Quốc Tế",HBO FAMILY
-http://36.37.252.114:888/Apple/OneTV-033/playlist.m3u8
+http://sglive.vthanhtivi.pw:9981/stream/channelid/263467279?profile=pass
 
 #EXTINF:-1, tvg-id="hbo_signature" tvg-logo="https://i.imgur.com/ag4lanl.png" group-title="Kênh Quốc Tế",HBO Signature
-http://36.37.252.114:888/Apple/OneTV-032/playlist.m3u8
+http://sglive.vthanhtivi.pw:9981/stream/channelid/1094592119?profile=pass
 
 #EXTINF:-1, tvg-id="cinemax" tvg-logo="https://i.imgur.com/6psyOtX.png" group-title="Kênh Quốc Tế",CINEMAX
 #EXTVLCOPT:http-user-agent="BearTV"
@@ -463,41 +482,43 @@ http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ca6748a37b88b26947
 
 
 #EXTINF:-1, tvg-id="sctv2" tvg-logo="https://i.imgur.com/RnOv2dx.png" group-title="SCTV",SCTV2 - NetStars
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
-https://livecdn.fptplay.net:443/sda/sctv2_hls.smil/chunklist_b2500000.m3u8
+https://vtsstr6.tv24.vn/live/sctv2_HD_new.smil/playlist.m3u8
 
 #EXTINF:-1, tvg-id="sctv3" tvg-logo="https://i.imgur.com/sjfsCNl.png" group-title="SCTV",SCTV3 SeeTV
-#
+https://vtsstr4.tv24.vn/live/SCTVHDThieunhi_new.smil/playlist.m3u8
 
 #EXTINF:-1, tvg-id="sctv4" tvg-logo="https://i.imgur.com/UFJwc3G.png" group-title="SCTV",SCTV4 Giải Trí
-#
+https://vtsstr4.tv24.vn/live/SCTV_HD_GiaiTri_new.smil/playlist.m3u8
 
 #EXTINF:-1, tvg-id="sctv6" tvg-logo="https://i.imgur.com/UFJwc3G.png" group-title="SCTV",SCTV6 SNTV Thế Hệ Mới
-#
+#EXTVLCOPT:http-user-agent=VThanhTivi
+http://vips-livecdn.fptplay.net/hda3/film360_vhls.smil/chunklist_b5000000.m3u8
 
 #EXTINF:-1, tvg-id="sctv7_hd" tvg-logo="https://i.imgur.com/qDQlw7p.png" group-title="SCTV",SCTV7 Show Sân Khấu
-#
+https://vtsstr4.tv24.vn/live/SCTV_HD_SanKhau_new.smil/playlist.m3u8
 
 #EXTINF:-1, tvg-id="sctv8" tvg-logo="https://i.imgur.com/GV22l5w.png" group-title="SCTV",SCTV8 VITV Kinh Tế
-#
+https://vtsstr4.tv24.vn/live/SCTV8_SD_new.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="SCTV9" tvg-logo="https://i.imgur.com/bTDRBht.png" group-title="SCTV",SCTV9 Phim TVB
-#
+https://vtsstr4.tv24.vn/live/SCTV_HD_PhimChauA_new.smil/playlist.m3u8
 
 #EXTINF:-1, tvg-id="sctv11_tv_star" tvg-logo="https://i.imgur.com/okFcB30.png" group-title="SCTV",SCTV11 TVStar
-#
+https://vtsstr4.tv24.vn/live/SCTVVHNT_HD_new.smil/playlist.m3u8
 
 #EXTINF:-1, tvg-id="sctv12" tvg-logo="https://i.imgur.com/okFcB30.png" group-title="SCTV",SCTV12 Du Lịch
-#
+https://vtsstr4.tv24.vn/live/SCTV12_HD_new.smil/playlist.m3u8
 
 #EXTINF:-1, tvg-id="sctv13" tvg-logo="https://i.imgur.com/PKAsTnv.png" group-title="SCTV",SCTV13 Lady TV
-#
+https://vtsstr7.tv24.vn/live/SCTVHDPhunuGiadinh_new.smil/playlist.m3u8
 
 #EXTINF:-1, tvg-id="sctv14" tvg-logo="https://i.imgur.com/Vtalgll.png" group-title="SCTV",SCTV14 Phim Việt
-#
+#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
+https://e1.endpoint.cdn.sctvonline.vn/channel/sctv14_s2/index.m3u8
 
 #EXTINF:-1, tvg-id="SCTV20" tvg-logo="https://i.imgur.com/VmnyNm2.png" group-title="SCTV",SCTV20 Ca Nhạc
-#
+#EXTINF:-1 tvg-id="sctv20hd" group-title="💚| SCTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/82.png", SCTV20 HD
+https://vtsstr4.tv24.vn/live/SCTV20_HD_new.smil/playlist.m3u8
 
 
 
@@ -669,12 +690,14 @@ http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/KIENGIANG-SD-ABR/HTV-ABR/KIENGIANG
 https://haugiang.htvc.catchup.vnroute.com/ccfba126f2e2e9826830c3d12d9c31dd1600979801/haugiang.480p.tms/index.m3u8
 
 #EXTINF:-1, tvg-logo="https://i.imgur.com/v08VbZS.png" group-title="Địa Phương",HanoiCab1 | HiTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-http://quocthai.duckdns.org:18886/rtp/232.84.1.55:8310
+https://api.vthanhtivi.pw/v2/getlink/mytv/45/hd.m3u8
 
 #EXTINF:-1, tvg-logo="http://i.imgur.com/7uqtQEM.png" group-title="Địa Phương",HanoiCab2 | YouTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-http://quangvinh997.duckdns.org:8889/udp/225.1.1.207:30120
+#EXTVLCOPT:http-user-agent=VThanhTivi
+https://livecdn.fptplay.net/sdb/youtv_hls.smil/chunklist_b2500000.m3u8
+
+#EXTINF:-1, tvg-id="antg" tvg-logo="https://cdn.hqth.me/logo/thumbs/100.png"group-title="Địa Phương",An Ninh Thế Giới
+https://api.vthanhtivi.pw/v2/getlink/tv360/21/0.m3u8
 
 
 
@@ -848,57 +871,6 @@ https://ebsonair.ebs.co.kr/groundwavefamilypc/familypc1m/playlist.m3u8
 
 #------------------------KÊNH THỂ THAO------------------------#
 
-#EXTINF:-1 group-title="KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/m44rk5T/FACUP-BEARTV.png",FA CUP 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-http://livecdn.fptplay.net/footballassociation/facup01_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 group-title="KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/m44rk5T/FACUP-BEARTV.png",FA CUP 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-http://livecdn.fptplay.net/footballassociation/facup02_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 group-title="KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/m44rk5T/FACUP-BEARTV.png",FA CUP 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-http://livecdn.fptplay.net/footballassociation/facup03_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 group-title="KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/m44rk5T/FACUP-BEARTV.png",FA CUP 4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-http://livecdn.fptplay.net/footballassociation/facup04_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 group-title="KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/m44rk5T/FACUP-BEARTV.png",FA CUP 5
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-http://livecdn.fptplay.net/footballassociation/facup05_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 group-title="KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/6nGVG1t/Serie-A-BEARTV.png",Serie A 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-http://livecdn.fptplay.net/italyfootball/seriea01_2000.stream/chunklist.m3u8
-#EXTINF:-1 group-title="KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/6nGVG1t/Serie-A-BEARTV.png",Serie A 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-http://livecdn.fptplay.net/italyfootball/seriea02_2000.stream/chunklist.m3u8
-#EXTINF:-1 group-title="KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/6nGVG1t/Serie-A-BEARTV.png",Serie A 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-http://livecdn.fptplay.net/italyfootball/seriea03_2000.stream/chunklist.m3u8
-#EXTINF:-1 group-title="KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/6nGVG1t/Serie-A-BEARTV.png",Serie A 4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-http://livecdn.fptplay.net/italyfootball/seriea04_2000.stream/chunklist.m3u8
-#EXTINF:-1 group-title="KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/6nGVG1t/Serie-A-BEARTV.png",Serie A 5
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-http://livecdn.fptplay.net/italyfootball/seriea05_2000.stream/chunklist.m3u8
-#EXTINF:-1 group-title="KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/6nGVG1t/Serie-A-BEARTV.png",Serie A 6
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-http://livecdn.fptplay.net/italyfootball/seriea06_2000.stream/chunklist.m3u8
-#EXTINF:-1 group-title="KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/6nGVG1t/Serie-A-BEARTV.png",Serie A 7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-http://livecdn.fptplay.net/italyfootball/seriea07_2000.stream/chunklist.m3u8
-#EXTINF:-1 group-title="KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/6nGVG1t/Serie-A-BEARTV.png",Serie A 8
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-http://livecdn.fptplay.net/italyfootball/seriea08_2000.stream/chunklist.m3u8
-#EXTINF:-1 group-title="KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/6nGVG1t/Serie-A-BEARTV.png",Serie A 9
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-http://livecdn.fptplay.net/italyfootball/seriea09_2000.stream/chunklist.m3u8
-#EXTINF:-1 group-title="KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/6nGVG1t/Serie-A-BEARTV.png",Serie A 10
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-http://livecdn.fptplay.net/italyfootball/seriea10_2000.stream/chunklist.m3u8
-#EXTINF:-1 group-title="KÊNH THỂ THAO" tvg-logo="https://i.imgur.com/uIzMStV.png",EUROSPORT 1 | Kênh Thể Thao
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-https://95-213-224-169.livesports24.online/eurosport1ru.m3u8
-#EXTINF:-1 group-title="KÊNH THỂ THAO" tvg-logo="https://i.imgur.com/OXWgpvT.png",EUROSPORT 2 | Kênh Thể Thao
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-https://95-213-224-169.livesports24.online/ruseurosport2.m3u8
 
 #EXTINF:-1, tvg-id="sky_racing_1" tvg-logo="https://i.imgur.com/szAEEj3.png" group-title="Kênh Thể Thao Quốc Tế",Sky Racing 1
 https://skylivesky-i.akamaihd.net/hls/live/569780/skylive/sky1_extreme@569780.m3u8
@@ -918,70 +890,61 @@ http://vtsstr1.tv24.vn:1935/live/BOX_MOVIE_HD.smil/playlist.m3u8?uid=s2c526m574z
 
 #------------------------Sự Kiện-----------------------#
 
-#EXTINF:-1 group-title="Sự Kiện" tvg-logo="https://i.imgur.com/F6BJbRE.png",Sự Kiện 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-http://livecdn.fptplay.net/tvc/sukien01_2000.stream/chunklist.m3u8
-#EXTINF:-1 group-title="Sự Kiện" tvg-logo="https://i.imgur.com/F6BJbRE.png",Sự Kiện 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-http://livecdn.fptplay.net/tvc/sukien02_2000.stream/chunklist.m3u8
-#EXTINF:-1 group-title="Sự Kiện" tvg-logo="https://i.imgur.com/F6BJbRE.png",Sự Kiện 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-http://livecdn.fptplay.net/tvc/sukien03_2000.stream/chunklist.m3u8
-#EXTINF:-1 group-title="Sự Kiện" tvg-logo="https://i.imgur.com/F6BJbRE.png",Sự kiện 4 | e-Event
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-https://livecdn.fptplay.net/event/eventExpire_2000.stream/chunklist.m3u8
-#EXTINF:-1 group-title="Sự Kiện" tvg-logo="https://i.imgur.com/F6BJbRE.png",Sự kiện 5 | e-Sport
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-https://livecdn.fptplay.net/schedule/esport01_hls.smil/playlist.m3u8
-
 
 
 #------------------------KÊNH RADIO------------------------#
 
 #EXTINF:-1, tvg-logo="https://i.imgur.com/kIK06ci.png" group-title="Radio",VOV1
-#https://5a6872aace0ce.streamlock.net/nghevov1/vov1.stream_aac/playlist.m3u8
+https://str.vov.gov.vn/vovlive/vov1vov5Vietnamese.sdp_aac/playlist.m3u8
 
 #EXTINF:-1, tvg-logo="https://i.imgur.com/OatofuK.png" group-title="Radio",VOV2
-#https://5a6872aace0ce.streamlock.net/nghevov2/vov2.stream_aac/playlist.m3u8
+https://str.vov.gov.vn/vovlive/vov2.sdp_aac/playlist.m3u8
 
 #EXTINF:-1,tvg-logo="https://i.imgur.com/V4UobK4.png" group-title="Radio",VOV3
-#https://5a6872aace0ce.streamlock.net/nghevov3/vov3.stream_aac/playlist.m3u8
+https://str.vov.gov.vn/vovlive/vov3.sdp_aac/playlist.m3u8
 
 #EXTINF:-1, tvg-logo="https://i.imgur.com/IRYWMxf.png" group-title="Radio",VOV Sức khỏe FM 89Mhz
-http://media.kythuatvov.vn:1936/live/VOV89.sdp/playlist.m3u8
+http://media.kythuatvov.vn:7021/;stream/
 
 #EXTINF:-1, tvg-logo="https://i.imgur.com/FfZY06E.png" group-title="Radio",JoyFM 98.9MHz
 http://cdn.mediatech.vn/hntvRadio/joyfm.stream_aac/playlist.m3u8
 
 #EXTINF:-1, tvg-logo="https://i.imgur.com/LCqqWh2.png" group-title="Radio",VOV Giao Thông HCM
-#https://5a6872aace0ce.streamlock.net/nghevovgthcm/vovgthcm.stream_aac/playlist.m3u8
+https://str.vov.gov.vn/vovlive/vovGTHCM.sdp_aac/chunklist_w1213978008.m3u8
 
 #EXTINF:-1, tvg-logo="https://i.imgur.com/PqthPMS.png" group-title="Radio",VOH AM 610KHz
-http://125.212.213.71:1935/live/channel2/playlist.m3u8
+https://strm.voh.com.vn/radio/channel2/playlist.m3u8
 
 #EXTINF:-1, tvg-logo="https://i.imgur.com/iXf2hin.png" group-title="Radio",VOH FM 99.9MHz
-http://125.212.213.71:1935/live/channel3/playlist.m3u8
+https://strm.voh.com.vn/radio/channel3/playlist.m3u8
 
 #EXTINF:-1, tvg-logo="https://i.imgur.com/N6kK5z0.png" group-title="Radio",VOH FM 95.6MHz
-http://125.212.213.71:1935/live/channel1/playlist.m3u8
+https://strm.voh.com.vn/radio/channel1/playlist.m3u8
 
 #EXTINF:-1, tvg-logo="https://i.imgur.com/CEVIgYy.png" group-title="Radio",VOH FM 87.7MHz
-http://125.212.213.71:1935/live/channel5/playlist.m3u8
+https://strm.voh.com.vn/radio/channel5/playlist.m3u8
 
-#EXTINF:-1, tvg-logo="https://i.imgur.com/hFYb0As.png" group-title="Radio",Swiss Classic Music
-http://stream.srg-ssr.ch/m/rsc_de/mp3_128
+#EXTINF:-1, group-title="📻| Radio" tvg-logo="https://cdn.hqth.me/logo/thumbs/252.png", The One Radio
+https://vnno-pt-6-tf-playlist-live-zmp3.zadn.vn/C0ti9DKXaS4/zhls/live/standard-audio/5c0872cf4e8aa7d4fe9b/standard-audio.m3u8
 
-#EXTINF:-1, group-title="Radio",Xone FM
-https://vnno-zn-1-tf-playlist-live-zmp3.zadn.vn/hpOx2UjqVEQ/zhls/live/standard-audio/855a669d5ad8b386eac9/standard-audio.m3u8
+#EXTINF:-1, group-title="Radio" tvg-logo="https://photo-zmp3.zadn.vn/avatars/8/5/4/0/854010f76bddeefd5f13305a1d6cc8be.jpg",Zing MP3 - On Air
+https://multi-playlist-zmp3.zadn.vn/9tPzLPYORS8/zhls/playback-realtime/a07d79b945fcaca2f5ed/index.m3u8
+#EXTINF:-1, group-title="Radio" tvg-logo="https://photo-zmp3.zadn.vn/avatars/7/7/8/d/778d152062edfbe0e4c4abf151858bf0.jpg",Zing MP3 - Chạm
+https://multi-playlist-zmp3.zadn.vn/62YE6lXdY4w/zhls/playback-realtime/db68d4afe8ea01b458fb/index.m3u8
+#EXTINF:-1, group-title="Radio" tvg-logo="https://photo-zmp3.zadn.vn/avatars/1/4/6/b/146b49d11cc9b3bc591823bfedb8bce2.jpg",Zing MP3 - Vpop
+https://multi-playlist-zmp3.zadn.vn/wTSwRIGOON0/zhls/playback-realtime/6eeb692c5569bc37e578/index.m3u8
+#EXTINF:-1, group-title="Radio" tvg-logo="https://photo-zmp3.zadn.vn/avatars/0/9/9/3/0993b3110c60ba6518fceeba9913d20d.jpg",Zing MP3 - Acoustic
+https://multi-playlist-zmp3.zadn.vn/ktkT8IgzcQQ/zhls/playback-realtime/08aae96dd5283c766539/index.m3u8
+#EXTINF:-1, group-title="Radio"" tvg-logo="https://photo-zmp3.zadn.vn/avatars/1/3/0/5/1305cd954d22d89fef4354301613fd68.jpg",Zing MP3 - Bolero
+https://multi-playlist-zmp3.zadn.vn/BtRvAOtW5jk/zhls/playback-realtime/e3b9f87ec43b2d65742a/index.m3u8
+#EXTINF:-1, group-title="Radio" tvg-logo="https://photo-zmp3.zadn.vn/avatars/b/f/3/b/bf3bf87a788a5d0b8719c6feee774a2e.jpg",Zing MP3 - Rap Việt
+https://multi-playlist-zmp3.zadn.vn/Itsn5VCb5Uo/zhls/playback-realtime/4f2980eebcab55f50cba/index.m3u8
+#EXTINF:-1, group-title="Radio" tvg-logo="https://photo-zmp3.zadn.vn/avatars/c/f/2/4/cf2428f7e56a8c2a52d84cb106891de2.jpg",Zing MP3 - Kpop
+https://multi-playlist-zmp3.zadn.vn/94rxZ-Dfzro/zhls/playback-realtime/ff294ded71a898f6c1b9/index.m3u8
+#EXTINF:-1, group-title="Radio" tvg-logo="https://photo-zmp3.zadn.vn/avatars/b/0/d/a/b0da7c8ecd6521337682f3a86fa0170f.jpg",Zing MP3 - USUK
+https://multi-playlist-zmp3.zadn.vn/RckDo1XPsU4/zhls/playback-realtime/111c87d8bb9d52c30b8c/index.m3u8
 
-#EXTINF:-1, group-title="Radio",On Air
-https://vnno-zn-11-tf-multi-playlist-zmp3.zadn.vn/HZQveZhPc-8/zhls/playback-realtime/very-low/a07d79b945fcaca2f5ed/very-low.m3u8
 
-#EXTINF:-1, group-title="Radio",Chạm
-https://vnno-zn-14-tf-multi-playlist-zmp3.zadn.vn/Ok1SSsyycZY/zhls/playback-realtime/very-low/db68d4afe8ea01b458fb/very-low.m3u8
-
-#EXTINF:-1, group-title="Radio",The One Radio
-https://vnno-pt-3-tf-playlist-live-zmp3.zadn.vn/C0ti9DKXaS4/zhls/live/standard-audio/5c0872cf4e8aa7d4fe9b/standard-audio.m3u8
 
 
 
