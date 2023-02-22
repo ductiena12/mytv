@@ -405,10 +405,10 @@ https://vips-livecdn.fptplay.net/hda1/hbo_vhls.smil/chunklist_b5000000.m3u8
 #
 
 #EXTINF:-1, tvg-id="hbo_hits" tvg-logo="https://i.imgur.com/UvtN7h6.png" group-title="Kênh Quốc Tế",HBO HITS
-http://sglive.vthanhtivi.pw:9981/stream/channelid/840219198?profile=pass
+#
 
 #EXTINF:-1, tvg-id="hbo_family" tvg-logo="https://i.imgur.com/EcpLi9y.png" group-title="Kênh Quốc Tế",HBO FAMILY
-http://sglive.vthanhtivi.pw:9981/stream/channelid/263467279?profile=pass
+#
 
 #EXTINF:-1, tvg-id="hbo_signature" tvg-logo="https://i.imgur.com/ag4lanl.png" group-title="Kênh Quốc Tế",HBO Signature
 http://sglive.vthanhtivi.pw:9981/stream/channelid/1094592119?profile=pass
