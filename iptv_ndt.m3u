@@ -222,6 +222,13 @@ https://livecdn.fptplay.net/sdc/hanoitv1_hls.smil/chunklist_b2500000.m3u8
 https://livecdn.fptplay.net/sdc/hanoitv2_hls.smil/chunklist_b2500000.m3u8
 #http://hntv.cdn.mediatech.vn/hanoi2.m3u8
 
+#EXTINF:-1, tvg-logo="https://i.imgur.com/v08VbZS.png" group-title="Địa Phương",HanoiCab1 | HiTV
+https://api.vthanhtivi.pw/v2/getlink/mytv/45/hd.m3u8
+
+#EXTINF:-1, tvg-logo="http://i.imgur.com/7uqtQEM.png" group-title="Địa Phương",HanoiCab2 | YouTV
+#EXTVLCOPT:http-user-agent=VThanhTivi
+https://livecdn.fptplay.net/sdb/youtv_hls.smil/chunklist_b2500000.m3u8
+
 #EXTINF:-1, tvg-id="danang1" tvg-logo="http://www.drt.danang.vn/images/drt1.png" group-title="Địa Phương",Đà Nẵng 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
 http://drtdnglive.e49a7c38.cdnviet.com/livedrt1/chunklist.m3u8
@@ -332,7 +339,7 @@ https://livecdn.fptplay.net/hda2/natgeohd_vhls.smil/chunklist_b5000000.m3u8
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 https://livecdn.fptplay.net/hda3/natgeowild_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1,tvg-id="planetearth" tvg-logo="https://cdn.hqth.me/logo/thumbs/194.png" group-title="Kênh Quốc Tế", Planet Earth
+#EXTINF:-1,tvg-id="planetearth" tvg-logo="https://cdn.hqth.me/logo/thumbs/194.png" group-title="Kênh Quốc Tế",Planet Earth
 https://api.vthanhtivi.pw/v2/getlink/tv360/135/2.m3u8
 
 #EXTINF:-1, tvg-id="history" tvg-logo="https://i.imgur.com/iDvpwtk.png" group-title="Kênh Quốc Tế",History
@@ -673,13 +680,6 @@ http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/KIENGIANG-SD-ABR/HTV-ABR/KIENGIANG
 #EXTINF:-1, tvg-id="haugiang" tvg-logo="https://i.imgur.com/2z6TpZ3.png" group-title="Địa Phương",Hậu Giang
 https://haugiang.htvc.catchup.vnroute.com/ccfba126f2e2e9826830c3d12d9c31dd1600979801/haugiang.480p.tms/index.m3u8
 
-#EXTINF:-1, tvg-logo="https://i.imgur.com/v08VbZS.png" group-title="Địa Phương",HanoiCab1 | HiTV
-https://api.vthanhtivi.pw/v2/getlink/mytv/45/hd.m3u8
-
-#EXTINF:-1, tvg-logo="http://i.imgur.com/7uqtQEM.png" group-title="Địa Phương",HanoiCab2 | YouTV
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://livecdn.fptplay.net/sdb/youtv_hls.smil/chunklist_b2500000.m3u8
-
 #EXTINF:-1, tvg-id="antg" tvg-logo="https://cdn.hqth.me/logo/thumbs/100.png"group-title="Địa Phương",An Ninh Thế Giới
 https://api.vthanhtivi.pw/v2/getlink/tv360/21/0.m3u8
 
@@ -814,12 +814,14 @@ https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c
 #EXTINF:-1, tvg-id="redbull_tv" tvg-logo="https://i.imgur.com/CjkzOjb.png" group-title="Kênh Thể Thao Quốc Tế",Red Bull TV
 http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
 
+
+
 #------------------------KÊNH HÀN QUỐC------------------------#
 
-#EXTINF:-1, tvg-id="KBS1TV.kr" group-title="KOREA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/440px-KBS_1_logo.svg.png", KBS 1
+#EXTINF:-1, tvg-id="KBS1TV.kr" group-title="KOREA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/440px-KBS_1_logo.svg.png",KBS 1
 https://api.vthanhtivi.pw/qt/kbs.php?id=11
 
-#EXTINF:-1, tvg-id="KBS2TV.kr" group-title="KOREA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/KBS_2_logo.svg/1200px-KBS_2_logo.svg.png", KBS 2
+#EXTINF:-1, tvg-id="KBS2TV.kr" group-title="KOREA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/KBS_2_logo.svg/1200px-KBS_2_logo.svg.png",KBS 2
 https://api.vthanhtivi.pw/qt/kbs.php?id=12
 
 #EXTINF:-1, tvg-id="mnet" tvg-logo="https://static.epg.best/kr/Mnet.kr.png" group-title="KOREA",M-NET
